@@ -24,9 +24,15 @@ body {
     border-radius: 6px;
     height: 160px;
     display: flex;
-    flex-direction: column;
-    justify-content: center; /*Vertical*/
+    flex-direction: row;
+    justify-content: space-around; /*Vertical*/
     align-items: center; /*horizontal*/
+  }
+  #image-profile {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+
   }
 
   #principal {
