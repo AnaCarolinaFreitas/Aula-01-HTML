@@ -25,6 +25,6 @@ body {
     height: 160px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /*Vertical*/
+    align-items: center; /*horizontal*/
   }
