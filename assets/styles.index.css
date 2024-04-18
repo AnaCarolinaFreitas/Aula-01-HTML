@@ -28,3 +28,26 @@ body {
     justify-content: center; /*Vertical*/
     align-items: center; /*horizontal*/
   }
+
+  #principal {
+    border-radius: 6px;
+    height: 800px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  main {
+    background-color: rgb(156, 156, 156);
+    border-radius: 6px;
+    height: 100%;
+    width: 74%;
+  }
+
+  aside {
+    background-color: rgb(113, 112, 112);
+    border-radius: 6px;
+    height: 100%;
+    width: 25%;
+  }
