@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=IM+Fell+DW+Pica:ital@0;1&family=Jacquard+24&display=swap');
+
+.im-fell-dw-pica-regular {
+    font-family: "IM Fell DW Pica", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* fazer um reset CSS*/
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: "IM Fell DW Pica", sans-serif;
+    color: rgb(113, 112, 112);
+    padding: 10px;
+  }
+
+  header {
+    background-color: rgb(245, 245, 239);
+    border-radius: 6px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
